@@ -1,13 +1,4 @@
-# 使用Heroku部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
-
-> 提醒： 滥用可能导致账户被BAN！！！ 
-
-# 9月21日修复
-
-## 概述
-
-用于在 Heroku 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
-vless 性能更加优秀，占用资源更少。
+。
 
 * 使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议，并默认已配置好伪装网站。
 * 支持tor网络，且可通过自定义网络配置文件启动xray和caddy来按需配置各种功能  
@@ -20,7 +11,7 @@ vless 性能更加优秀，占用资源更少。
 
 ### 服务端
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/jth445600/HerokuXray) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/kowoneoq/220429) 
 
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用的名称、选择节点(建议用欧洲节点，美国节点会自动删除YouTube评论与点赞！)、按需修改部分参数和UUID后点击下面`deploy`开始创建部署应用  
 如出现错误，可以多尝试几次，待部署完成后页面底部会显示`Your app was successfully deployed` 
